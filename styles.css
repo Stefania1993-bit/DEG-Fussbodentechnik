@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #e0e0e0; /* Heller Grauton für den Hintergrund */
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 2em; /* Vergrößertes Logo */
+    font-weight: bold;
+    color: red; /* Logo in Rot */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #f4a261;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff; /* Weißer Hintergrund für die Abschnitte */
+    border-radius: 8px; /* Abgerundete Ecken */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+}
+
+#home {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px 20px;
+    border-radius: 8px; /* Abgerundete Ecken auch hier */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Leichter Schatten */
+}
+
+#about, #services, #contact {
+    max-width: 800px;
+    margin: 0 auto;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input, form textarea, form button {
+    margin-top: 5px;
+    padding: 10px;
+    font-size: 1em;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #f4a261;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
